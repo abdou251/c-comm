@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import React from 'react'
+import { useState, useEffect } from 'react'
 import NavBar from './pages/NavBar'
 import Home from './pages/Home'
 import Blogs from './pages/Blogs'
